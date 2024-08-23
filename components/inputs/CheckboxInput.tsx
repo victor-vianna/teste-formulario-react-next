@@ -13,7 +13,7 @@ type CheckboxInputProps = {
 function CheckboxInput({
   labelTrue,
   labelFalse,
-  labelClassName = 'cursor-pointer font-medium leading-none text-xs grow',
+  labelClassName = 'cursor-pointer font-medium leading-none text-xs grow text-[#000]',
   checked,
   handleChange,
   editable = true,
